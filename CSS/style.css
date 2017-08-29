@@ -51,9 +51,82 @@ body {
   width: 1200px;
 }
 
-h2,
-h4 {
+h2, h4 {
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.second-section {
+  align-content: space-around;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.Monthly-deal {
+  align-items: center;
+}
+
+.container-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.description img {
+  height: 200px;
+  width: 300px;
+}
+
+.third-section {
+  background-image: url(../resources/img-locations-background.jpg);
+  max-width: 1200px;
+  min-height: 500px;
+  display: flex;
+  margin: auto;
+}
+
+.third-section img {
+  height: 500px;
+}
+
+.locations {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.address {
+background-color: black;
+opacity: 1;
+width: 300px;
+text-align: center;
+}
+
+.address span {
+  padding: 15px 0;
+}
+
+.footer {
+  max-height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+
 }
