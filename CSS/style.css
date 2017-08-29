@@ -7,7 +7,7 @@ body {
   color: seashell;
 }
 
-.nav {
+nav {
   height:69px;
   width: 100%;
   display: flex;
@@ -16,17 +16,19 @@ body {
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 5;
+  background-color: black;
 }
 
 .logo {
   padding-left: 10px;
+
 }
 
 .logo img {
   height: 50px;
 }
 
-.menu {
+.menu span {
   display: inline-flex;
   float: right;
 }
@@ -51,7 +53,9 @@ body {
   width: 1200px;
 }
 
-h2, h4 {
+h2,
+h4,
+h3 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -71,12 +75,13 @@ h2, h4 {
 .container-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .description img {
   height: 200px;
   width: 300px;
+  padding: 0 15px;
 }
 
 .third-section {
@@ -110,11 +115,13 @@ h2, h4 {
 background-color: black;
 opacity: 1;
 width: 300px;
+height: 300px;
 text-align: center;
+align-content: space-around;
 }
 
-.address span {
-  padding: 15px 0;
+.address p {
+  padding-bottom: 15px;
 }
 
 .footer {
